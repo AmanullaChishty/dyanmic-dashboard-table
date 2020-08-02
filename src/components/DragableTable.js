@@ -208,9 +208,9 @@ export class DragableTable extends React.Component {
           render: (text, record, index) => {
             return {
               children: (
-                <a className="drag-handle" href="#">
+                <div className="drag-handle" href="#">
                   <DragIndicatorIcon />
-                </a>
+                </div>
               ),
             };
           },
@@ -266,7 +266,7 @@ export class DragableTable extends React.Component {
           data,
         });
       },
-      handleSelector: "a",
+      handleSelector: "div",
     };
   }
 
