@@ -1,17 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Dashboard from "./pages/dashboard";
-import Navbar from "./components/Navbar";
-
-
+import { SideNavbar } from "./components/SideNav";
 
 function App() {
-
-  const[color,setColor] = useState('#60d8eb52')
   return (
-    <div id="main" style={{backgroundColor:color}}>
-      <Navbar changeTheme={(val)=>{setColor(val)}}/>
-      <Dashboard/>
+    <div id="main">
+      <SideNavbar />
+      <Dashboard />
     </div>
   );
 }
