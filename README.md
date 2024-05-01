@@ -16,3 +16,5 @@ A dynamic and dragable table dashboard in which the rows and columns can be re-a
 <li>ant-design</li>
 <li>Material-ui</li>
 </ul>
+
+demo : [https://musing-carson-574d78.netlify.app/](https://musing-carson-574d78.netlify.app/)
